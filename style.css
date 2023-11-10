@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.heads {
+    height: auto;
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.bg {
+    background-image: linear-gradient(to right, rgba(187, 15, 15, 0.74), rgba(158, 187, 15, 0.74), rgba(15, 187, 89, 0.74), rgba(15, 187, 92, 0.74), rgba(15, 135, 187, 0.74));
+}
+
+/* ... (Your existing CSS code) ... */
+
+/* Navigation Styles */
+ul {
+    padding: 10px;
+    margin: 0;
+    list-style-type: none;
+    text-align: center;
+    background-image: linear-gradient(to right, rgba(8, 81, 95, 0.973), rgb(8, 108, 128), rgba(26, 64, 83, 0.973));
+}
+
+li {
+    display: inline-block;
+    margin-right: 10px; 
+}
+
+li a {
+    min-height: 50px;
+    text-decoration: none;
+    font-size: 18px; 
+    padding: 10px;
+    color: black;
+    position: relative;
+    top: 10px;
+    font-weight: bold;
+    display: inline-block; 
+}
+
+/* ... (Your existing CSS code) ... */
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    ul {
+        height: auto;
+    }
+
+    li {
+        display: block;
+        margin: 10px 0;
+        text-align: center; /* Center the list items */
+    }
+
+    li a {
+        font-size: 16px;
+        padding: 10px;
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
+
+
+
+.det {
+    min-height: 600px;
+    background-image: linear-gradient(to right, rgba(8, 81, 95, 0.973), rgb(8, 108, 128), rgba(26, 64, 83, 0.973));
+    padding: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1.abb {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 30px;
+    color: rgba(47, 171, 169, 0.886);
+    padding: 10px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    height: auto;
+    border-radius: 10px;
+    min-width: 100px;
+    background-image: linear-gradient(to right, rgba(1, 22, 26, 0.973), rgb(2, 49, 59), rgba(48, 182, 187, 0.973));
+}
+
+
+.g {
+    display: block;
+    margin: 0 auto; 
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
+@media (max-width: 768px) {
+    .heads {
+        font-size: 16px;
+    }
+
+    li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    li a {
+        font-size: 16px;
+        padding: 10px;
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .det {
+        min-height: 400px;
+    }
+
+    h1.abb {
+        font-size: 24px;
+    }
+    
+   
+}
+
+
+
+
+
+
