@@ -17,9 +17,7 @@ body {
     background-image: linear-gradient(to right, rgba(187, 15, 15, 0.74), rgba(158, 187, 15, 0.74), rgba(15, 187, 89, 0.74), rgba(15, 187, 92, 0.74), rgba(15, 135, 187, 0.74));
 }
 
-/* ... (Your existing CSS code) ... */
 
-/* Navigation Styles */
 ul {
     padding: 10px;
     margin: 0;
@@ -45,9 +43,7 @@ li a {
     display: inline-block; 
 }
 
-/* ... (Your existing CSS code) ... */
 
-/* Responsive Design */
 @media (max-width: 768px) {
     ul {
         height: auto;
@@ -56,7 +52,7 @@ li a {
     li {
         display: block;
         margin: 10px 0;
-        text-align: center; /* Center the list items */
+        text-align: center;
     }
 
     li a {
